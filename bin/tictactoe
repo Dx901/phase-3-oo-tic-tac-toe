@@ -1,3 +1,20 @@
 #!/usr/bin/env ruby
+# require 'pry'
+# require_relative '../lib/tic_tac_toe.rb'
+
+# game = TicTacToe.new
+# game.play
+
+# puts "Welcome to Tic Tac Toe!"
+# game = TicTacToe.new
+# game.play
+
 require 'pry'
-require_relative '../lib/tic_tac_toe.rb'
+#require_relative '/home/dyes/Development/code/phase-3/phase-3-oo-tic-tac-toe/lib/tic_tac_toe.rb'
+#require_relative '../lib/tic_tac_toe.rb'
+require_relative './bin/tictactoe'
+
+puts "Welcome to Tic Tac Toe!"
+game = TicTacToe.new
+game.play
+
